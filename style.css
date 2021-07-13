@@ -1,0 +1,32 @@
+.container {
+    background-color: #ff0000;
+    position: relative;
+    padding: 21px;
+    border-radius: 10px;
+    width: 22px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.container:after {
+    position:absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 18px solid #ffffff;
+    top:50%;
+    transform: translate(-50%,-50%);
+    left:50%;
+} 
+
+span {
+font-size: 45px;
+vertical-align: text-bottom;
+line-height: 12px;
+text-transform: capitalize;
+font-weight: 500;
+color:#272727;    
+
+}
